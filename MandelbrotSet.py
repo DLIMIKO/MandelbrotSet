@@ -45,7 +45,6 @@ def runMandelbrot():
 
     # vypočíta sa celkový počet zafarbených bodov(rozsah štat.súboru)
     total = sum(histogram.values())
-    print(histogram)
 
     # paleta, sem sa ku každej iterácii(index poľa), uloží daný odtieň
     hues = []
